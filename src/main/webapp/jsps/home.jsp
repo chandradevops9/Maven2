@@ -9,13 +9,8 @@
 </head>
 </head>
 <body>
-<<<<<<< HEAD
-<h1 align="center">Welcome to KK Devops Prasanth</h1>
-<h1 align="center"> KK FUNDA By Prasanth</h1>
-=======
-<h1 align="center">Welcome to KK DevOps Prasanth</h1>
-<h1 align="center"> KK FUNDA By Prasanth</h1>
->>>>>>> 48a2610878c6973e34b252d334c00445e4383e02
+<h1 align="center">Welcome to Bangalore</h1>
+<h1 align="center"> The Garden city Of india</h1>
 <hr>
 <br>
 	<h1><h3> Server Side IP Address </h3><br>
