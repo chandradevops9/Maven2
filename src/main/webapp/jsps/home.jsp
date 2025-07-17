@@ -9,8 +9,8 @@
 </head>
 </head>
 <body>
-<h1 align="center">Welcome to India</h1>
-<h1 align="center"> The Land of VedaBhoomi</h1>
+<h1 align="center">Welcome to Pune</h1>
+<h1 align="center"> The Land of Sivaji maharaj</h1>
 <hr>
 <br>
 	<h1><h3> Server Side IP Address </h3><br>
