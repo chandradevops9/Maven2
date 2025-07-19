@@ -37,7 +37,7 @@ pipeline {
             steps {
                 sh '''
                 curl -u prakash:LENIN@hitler1 --upload-file target/maven-web-application.war \
-                "http://13.203.200.132:8080/manager/text/deploy?path=/maven-web-application&update=true"
+                "http://65.1.95.215:8080/manager/text/deploy?path=/maven-web-application&update=true"
                 '''
             }
         }
