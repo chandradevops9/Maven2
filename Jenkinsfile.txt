@@ -2,7 +2,7 @@ node
 {
     def mavenHome=tool name: "maven-3.9.9"
     stage ('git checkout')
-    }
+    {
         git branch: "test",url: 'https://github.com/chandradevops9/Maven2.git'
     }
     stage ('build')
