@@ -9,8 +9,13 @@
 </head>
 </head>
 <body>
+<<<<<<< HEAD
 <h1 align="center">Welcome to Pune</h1>
 <h1 align="center"> The Land of Sivaji maharaj</h1>
+=======
+<h1 align="center">Welcome to Kasmir</h1>
+<h1 align="center"> UT OF INDIA</h1>
+>>>>>>> 26b2f931d62647f7b42622a694195c0f4b2416de
 <hr>
 <br>
 	<h1><h3> Server Side IP Address </h3><br>
