@@ -1,26 +1,22 @@
-node
-{
-    def mavenHome=tool name: "maven-3.9.9"
-    stage ('git checkout')
-    {
-        git branch: "dev",url: 'https://github.com/chandradevops9/Maven2.git'
-    }
-    stage ('build')
-    {
-        sh "${mavenHome}/bin/mvn clean package"
-    }
-    stage ('sonarqube')
-    {
-        sh "${mavenHome}/bin/mvn  sonar:sonar"
-    }
-    stage ('upload artifactory')
-    {
-         sh "${mavenHome}/bin/mvn  deploy"
-     }
-     stage ('Deploy to tomcat')
-     {
-        sh """
-        curl -u prakash:LENIN@hitler1 --upload-file /var/lib/jenkins/workspace/Pipeline/target/maven-web-application.war "http://13.203.102.167:8080/manager/text/deploy?path=/maven-web-application&update=true" \
-            """
+pipeline {
+    agent any
+    stages {
+        stage('Build') {
+            steps {
+                echo 'Building...'
+                sh 'mvn clean package'
+            }
+        }
+        stage('Test') {
+            steps {
+                echo 'Testing...'
+                sh 'mvn test'
+            }
+        }
+        stage('Deploy') {
+            steps {
+                echo 'Deploying...'
+            }
+        }
     }
 }
